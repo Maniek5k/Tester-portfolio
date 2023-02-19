@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jira - Tester Course</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira-course.coderslab.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WROW24-186]&nbsp;<a href="https://jira-course.coderslab.com/browse/WROW24-186">Przyp. wysokopoziomowy - skladanie zamowienia</a>
+            <span class="subText">
+               Utworzono: 29/sty/23                   &nbsp;Zaktualizowano: 29/sty/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13112">WRO_TEM_W_24</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="Emailer5k@gmail.com" id="word_reporter_Emailer5k@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=Emailer5k%40gmail.com">Michał Kasprzyk</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="Emailer5k@gmail.com" id="word_assignee_Emailer5k@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=Emailer5k%40gmail.com">Michał Kasprzyk</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-194644-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-194644-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.steps');</script>
+
+    
+                    
+
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 6</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>wejdz na strone X </p></td>
+                                            <td></td>
+                                            <td><p>strona X wyswietlona poprawnie</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>wejdz na dowolna strone kategorii i dodaj dowolny produkt do koszyka</p></td>
+                                            <td></td>
+                                            <td><p>produkt dodany do koszyka</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            3
+                                    </td>
+                                                            <td><p>przejdz na strone skladania zamowienia poprzez przycisk checkout</p></td>
+                                            <td></td>
+                                            <td><p>strona skladania zamowienia wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            4
+                                    </td>
+                                                            <td><p>uzupelnij dane konta uzytkownika i przejdz dalej</p></td>
+                                            <td></td>
+                                            <td><p>strona wyboru dostawy wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            5
+                                    </td>
+                                                            <td><p>wybierz dowolna metode dostawy oraz wprowadz dowolny adres i zatwierdz</p></td>
+                                            <td></td>
+                                            <td><p>strona wyboru platnosci wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            6
+                                    </td>
+                                                            <td><p>wybierz dowolna metode platnosci i potwierdz zamowienie </p></td>
+                                            <td></td>
+                                            <td><p>zamowienie zostaje potwierdzone, wyswietlony numer zamowienia</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-194644-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.preconditions');</script>
+
+    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1675004836370"
+                     data-preconditions-value="[&quot;uzytkownik niezalogowany\nkonto uzytkownika istnieje w systemie&quot;]"
+                     data-issue-id="194644"
+                     data-project-id="13112"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-tms-required-resources="wrc!tms.customfield.preconditions"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WROW24-185]&nbsp;<a href="https://jira-course.coderslab.com/browse/WROW24-185">Przyp. niskopoziomowy - skladanie zamowienia</a>
+            <span class="subText">
+               Utworzono: 29/sty/23                   &nbsp;Zaktualizowano: 29/sty/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13112">WRO_TEM_W_24</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="Emailer5k@gmail.com" id="word_reporter_Emailer5k@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=Emailer5k%40gmail.com">Michał Kasprzyk</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="Emailer5k@gmail.com" id="word_assignee_Emailer5k@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=Emailer5k%40gmail.com">Michał Kasprzyk</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-194643-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-194643-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.steps');</script>
+
+    
+                    
+
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 16</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>wejdz na strone X </p></td>
+                                            <td><p><a href="https://jakistam.url.com" class="external-link" target="_blank" rel="nofollow noopener">https://jakistam.url.com</a></p></td>
+                                            <td><p>strona X zostaje wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>wybierz z menu gornego kategorie homeware -&gt; mirros </p></td>
+                                            <td></td>
+                                            <td><p>kategoria 'mirrors' zostaje wyswietlona, widoczna jest lista produktow</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            3
+                                    </td>
+                                                            <td><p>wybierz pierwszy produkt z listy produktow</p></td>
+                                            <td><p>produkt powinien byc dostepny do kupienia</p></td>
+                                            <td><p>strona produktu zostaje wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            4
+                                    </td>
+                                                            <td><p>kliknij w przycisk add to bag</p></td>
+                                            <td></td>
+                                            <td><p>produkt zostaje dodany do koszyka, koszyk zostaje wyswietlony</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            5
+                                    </td>
+                                                            <td><p>kliknij w przycisk checkout widoczny w koszyku</p></td>
+                                            <td></td>
+                                            <td><p>wyswietlona zostaje strona skladania zamowienia - okienko z logowaniem</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            6
+                                    </td>
+                                                            <td><p>wprowadz poprawny adres email konta uzytkownika ktore istnieje na stronie oraz go zatwierdz</p></td>
+                                            <td></td>
+                                            <td><p>wyswietlone pole haslo </p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            7
+                                    </td>
+                                                            <td><p>wprowadz poprawne haslo powiazane z danym kontem uzytkownika</p></td>
+                                            <td></td>
+                                            <td><p>uzytkownik zostaje zalogowany, wyswietlone zostaja metody dostawy</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            8
+                                    </td>
+                                                            <td><p>wybierz dostawe 'delivery' </p></td>
+                                            <td></td>
+                                            <td><p>metoda dostawy zostaje wybrana, podstawiony zostaje adres zapisany na koncie uzytkownika</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            9
+                                    </td>
+                                                            <td><p>kliknij w change adress oraz uzupelnij formularz poprawnym adresem</p></td>
+                                            <td></td>
+                                            <td><p>formularz zmiany adresu zostaje wyswietlony</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            10
+                                    </td>
+                                                            <td><p>zatwierdz zmiany w formularzu</p></td>
+                                            <td></td>
+                                            <td><p>nowy adres zostaje zapisany, widoczny na stronie skladania zamowienia</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            11
+                                    </td>
+                                                            <td><p>wybierz metode dostawy 'free shipping'</p></td>
+                                            <td></td>
+                                            <td><p>metoda dostawy zostala wybrana</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            12
+                                    </td>
+                                                            <td><p>kliknij w 'continue to payment' </p></td>
+                                            <td></td>
+                                            <td><p>metody platnosci zostaja wyswietlone</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            13
+                                    </td>
+                                                            <td><p>wybierz metode 'card payment' </p></td>
+                                            <td></td>
+                                            <td><p>formularz platnosci karta zostaje wyswietlony</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            14
+                                    </td>
+                                                            <td><p>wprowadz poprawne dane karty</p></td>
+                                            <td><p>123123123123</p></td>
+                                            <td><p>dane wprowadzone poprawnie</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            15
+                                    </td>
+                                                            <td><p>zatwierdz zamowienie przyciskiem 'submit' </p></td>
+                                            <td></td>
+                                            <td><p>wyswietlone zostaje okienko potwierdzenia platnosci</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            16
+                                    </td>
+                                                            <td><p>potwierdz platnosc uzywajac 'challenge' oraz zatwierdz formularz</p></td>
+                                            <td></td>
+                                            <td><p>zamowienie zlozone poprawnie, wyswietlony numer zamowienia</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-194643-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.preconditions');</script>
+
+    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1675004836436"
+                     data-preconditions-value="[&quot;uzytkownik posiada konto w systemie&quot;,&quot;konto uzytkownika ma zapisany adres dostawy&quot;]"
+                     data-issue-id="194643"
+                     data-project-id="13112"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-tms-required-resources="wrc!tms.customfield.preconditions"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Komentarze</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-34650"><td bgcolor="#f0f0f0">
+            Skomentowane przez  
+                                                        <a class="user-hover" rel="marcel.gocalek007@gmail.com" id="word_commented_marcel.gocalek007@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=marcel.gocalek007%40gmail.com">Marcel Gocałek</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">29/sty/23</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-34650"><td bgcolor="#ffffff">
+            <p>Bardzo dobry przypadek, polecam</p>
+        </td></tr>
+            </table>
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [WROW24-126]&nbsp;<a href="https://jira-course.coderslab.com/browse/WROW24-126">Logowanie uzytkownika - przyp. pozytywny</a>
+            <span class="subText">
+               Utworzono: 29/sty/23                   &nbsp;Zaktualizowano: 29/sty/23
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Active</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Projekt:</b></td>
+        <td width="80%"><a href="https://jira-course.coderslab.com/secure/BrowseProject.jspa?id=13112">WRO_TEM_W_24</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Komponenty:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Odnośne wersje:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Wersja naprawy:</b></td>
+            <td>
+                            Brak
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Typ:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Test Case Template
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priorytet:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                High
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Osoba zgłaszająca:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="Emailer5k@gmail.com" id="word_reporter_Emailer5k@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=Emailer5k%40gmail.com">Michał Kasprzyk</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Osoba przypisana:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="Emailer5k@gmail.com" id="word_assignee_Emailer5k@gmail.com" href="https://jira-course.coderslab.com/secure/ViewProfile.jspa?name=Emailer5k%40gmail.com">Michał Kasprzyk</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Rozwiązanie:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Nierozwiązane
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Głosy:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Etykiety:</b>
+        </td>
+        <td id="labels-194426-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            Brak
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Pozostało (oszacowanie):</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Czas poświęcony:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Pierwotne oszacowanie:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Nie określono
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Steps:</b></td>
+                <td id="customfield_10400-194426-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.steps');</script>
+
+    
+                    
+
+<style type="text/css">
+    .steps-excel-table {
+        background-color: white;
+        border-collapse: collapse;
+        border: solid 1px #f5f5f5;
+    }
+    .steps-excel-table thead tr th {
+        background-color: #f5f5f5;
+        style="text-align: center"
+    }
+
+    .steps-excel-table tbody td {
+        border: solid 1px #f5f5f5;
+    }
+</style>
+
+<div>Steps count: 4</div>
+<table class="steps-excel-table">
+    <thead>
+        <tr>
+            <th></th>
+                            <th>Action</th>
+                            <th>Input</th>
+                            <th>Expected result</th>
+                                </tr>
+    </thead>
+    <tbody>
+                            <tr>
+                <td>
+                                            1
+                                    </td>
+                                                            <td><p>wejdz na strone X </p></td>
+                                            <td></td>
+                                            <td><p>strona X zostaje wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            2
+                                    </td>
+                                                            <td><p>kliknij w przycisk logowanie</p></td>
+                                            <td></td>
+                                            <td><p>strona logowania zostaje wyswietlona</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            3
+                                    </td>
+                                                            <td><p>wprowadz poprawne dane logowania</p></td>
+                                            <td><p>dane istniejacego uzytkownik</p></td>
+                                            <td><p>dane zapisane poprawnie w polach tekstowych</p></td>
+                                                                    </tr>
+                                <tr>
+                <td>
+                                            4
+                                    </td>
+                                                            <td><p>kliknij w przycisk zaloguj</p></td>
+                                            <td></td>
+                                            <td><p>uzytkownik zalogowany do systemu, strona konta uzytkownika wyswietlona poprawnie</p></td>
+                                                                    </tr>
+                        </tbody>
+</table>        
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Preconditions:</b></td>
+                <td id="customfield_10500-194426-value" class="value" bgcolor="#ffffff" width="80%">
+<script>WRM.require('wrc!tms.customfield.preconditions');</script>
+
+    <div id="" class="value type-tms-preconditions  editable-field  inactive"
+         data-fieldtype="tms-preconditions" data-fieldtypecompletekey="com.intenso.jira.plugins.suiTest:tms-preconditions">
+                                    <div id="preconditions_view"
+                     class="preconditionsContainer"
+                     data-preconditions-input-id="preconditions-value-placeholder-1675004836456"
+                     data-preconditions-value="[&quot;istniejace konto uzytkownika&quot;,&quot;strona dostepna pod adresem X&quot;]"
+                     data-issue-id="194426"
+                     data-project-id="13112"
+                     data-has-edit-issue-permission="true"
+                     data-customfield-id="10500"
+                     data-inline-edit-disabled="false"
+                     data-tms-required-resources="wrc!tms.customfield.preconditions"
+                     data-is-editable="true">
+                </div>
+                        </div>
+</td>
+            </tr>
+            </table>
+
+
+<hr class='fullcontent'><br /><br style='page-break-before:always;'/><br />Wygenerowane (Sun Jan 29 15:07:16 GMT 2023) przez Michał Kasprzyk z użyciem systemu Jira 8.22.1#822001-sha1:d584a1e5af9752a5d8b59b41fdf410e866d38003.
+
+</body>
+</html>
